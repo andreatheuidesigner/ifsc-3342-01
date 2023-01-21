@@ -21,10 +21,17 @@ body {
 	margin-top: 20px;
 	border: 1px solid #CCC;
 }
-#header {
+#header{
 }
-#header h1 a {
+#header h1 a{
+	width:800px;
+	height:140px;
+	background:url(../img/headerimage.jpg) no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+	display:block;
 }
+
 #nav {
 	background-color: #000;
 }
@@ -55,13 +62,35 @@ body {
 	border-bottom-style: solid;
 	border-bottom-color: #CCC;
 }
+.tech a:hover{
+	background-color: rgb(83, 126, 247);
+}
 #content {
 	margin: 20px;
+	display:flex;
 }
 #content p {
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
+.webimage{
+	float:right;
+	padding:40px;
+	margin-top:380px;
+}
+img{
+	border:10px solid rgb(83, 126, 247);
+}
+h2,h3,h4{
+	color: rgb(4, 64, 173);
+	font-size: 20px;
+	font-weight:bold;
+}
+.alert{
+	background-color: rgb(113, 138, 160);
+	color: rgb(107, 3, 3);
+}
+
 #footer {
 	background-color: #000;
 	color: #FFF;
