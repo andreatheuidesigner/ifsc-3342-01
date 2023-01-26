@@ -6,7 +6,7 @@
 body {
 	text-align: center;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	background: url("bg-tile.jpg");
+	background: url("../img/bg-tile.jpg");
 	background-repeat: repeat-x;
 	background-color: #171717;
 	font-size: 16px;
@@ -28,6 +28,7 @@ body {
 	height:140px;
 	background:url(../img/headerimage.jpg) no-repeat;
 	text-indent: -9999px;
+	white-space:nowrap;
 	overflow: hidden;
 	display:block;
 }
@@ -62,7 +63,7 @@ body {
 	border-bottom-style: solid;
 	border-bottom-color: #CCC;
 }
-.tech a:hover{
+#content a:hover{
 	background-color: rgb(83, 126, 247);
 }
 #content {
@@ -73,14 +74,12 @@ body {
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
-.webimage{
-	float:right;
-	padding:40px;
-	margin-top:380px;
-}
 img{
+	float:right;
 	border:10px solid rgb(83, 126, 247);
+	margin:10px 0 10px 20px;
 }
+
 h2,h3,h4{
 	color: rgb(4, 64, 173);
 	font-size: 20px;
