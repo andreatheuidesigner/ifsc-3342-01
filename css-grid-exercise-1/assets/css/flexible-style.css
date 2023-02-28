@@ -33,37 +33,49 @@ main{
   width:956px;
   margin:20px auto;
   border:1px solid #000;
-  background-image:url("../img/grid.png");
   display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:repeat (4,1fr);
 }
 
 header.primary {
-  width:916px;
+  grid-column-start:1;
+  grid-column-end:4;
+  grid-row-start:1;
+  grid-row-end:2;
   margin:20px;
-  background-color:rgba(14, 14, 14, 0.4);
-  float:left;
-  padding:20px;
 }
 #content{
-  display:grid;
+  grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:2;
+  grid-row-end:3;
+  margin:20px;
 }
 
 #blog{
-  width:624px;
-  background-color:rgba(0,0,0,.4);
-  float:left;
-  margin-left:20px;
-  padding:20px;
+  
 }
 
 aside{
-  width:312px;
-  float:left;
-  background-color:rgba(0,0,0,.4);
-  margin-left:20px;
-  padding:20;
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:2;
+  grid-row-end:3;
+  margin:20px;
 }
 
 footer.primary{
-
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:3;
+  grid-row-end:4;
+  margin:20px;
+  
+}
+@media screen and (min-width:576px){
+  main{
+    grid-template-columns:repeat(1,fr);
+  }
+  
 }
