@@ -73,10 +73,9 @@ footer.primary{
   margin:20px;
   
 }
-@media screen and (min-width:576px){
+@media screen and (min-width:768px){
   header.primary{
     grid-template-columns:repeat(1,fr);
-    background:red;
   }
 
 }
