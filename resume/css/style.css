@@ -70,7 +70,7 @@ nav a:link, nav a:visited{
   text-decoration:none;
   color:#222222;
   text-transform:uppercase;
-  font-size:.75em;
+  font-size:.70em;
   background:rgba(3, 2, 88, 0.795);
   transition: background-color .5s ease;
   color:#fff;
@@ -146,7 +146,7 @@ dd{
   text-decoration:none;
   color:#222222;
   text-transform:uppercase;
-  font-size:.75em;
+  font-size:.70em;
   background:rgba(3, 2, 88, 0.89);
   transition: background-color 0.5s ease;
   color:#fff;
@@ -193,7 +193,7 @@ dd{
 @media screen and (max-width:510px){
   nav{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     align-content:center;
     padding:20px 20px 0px 20px;
   }
@@ -201,9 +201,10 @@ dd{
     display:flex;
     justify-content: center;
   }
-  ul.related-links{
+  .related-links li{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content:center;
+    grid-template-columns: 1fr;
+    align-content:center;
+    
   } 
 }
