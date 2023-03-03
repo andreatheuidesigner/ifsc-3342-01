@@ -23,7 +23,10 @@ body{font-family: 'Open Sans', sans-serif;}
 
 /* ------ Fluid Images -------*/
 
-img{max-width:100%;}
+img{max-width:100%;
+  display:block;
+  margin:auto;
+}
 
 /* ------ Utility Classes  -------*/
 .container{
@@ -126,6 +129,7 @@ dd{
 }
 .related-links{
   display:flex;
+  align-content:space-evenly;
   justify-content:center;
   list-style:none;
   padding:0;
@@ -181,7 +185,16 @@ dd{
   margin:20px 0 0 0;
 }
 
-footer{
+#copyright{
   text-align:center;
-padding:20px 0;
+  padding:20px 0;
+}
+/*Media Query*/
+@media screen and (max-width:510px){
+  ul.related-links{
+    display:grid;
+    align-content:space-around;
+    background-color:pink;
+    margin:0;
+  }
 }

@@ -52,11 +52,6 @@ header.primary {
   grid-row-end:3;
   margin:20px;
 }
-
-#blog{
-  
-}
-
 aside{
   grid-column-start:3;
   grid-column-end:4;
@@ -73,9 +68,11 @@ footer.primary{
   margin:20px;
   
 }
-@media screen and (min-width:768px){
-  header.primary{
-    grid-template-columns:repeat(1,fr);
+@media screen and (max-width:600px){
+  .container{
+    width:600px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    background-color:red;
   }
-
 }
