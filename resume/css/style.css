@@ -159,10 +159,6 @@ dd{
 .related-links li{
   margin-right:20px;
 }
-
-#skills{
-  
-}
 #skills li {
   list-style-type:square;
 }
@@ -190,7 +186,7 @@ dd{
   padding:20px 0;
 }
 /*Media Query Cell phone*/
-@media screen and (max-width:510px){
+@media screen and (max-width:450px){
   nav{
     display:grid;
     grid-template-columns: 1fr;
@@ -205,6 +201,6 @@ dd{
     display:grid;
     grid-template-columns: 1fr;
     align-content:center;
-    
+    margin:2px;
   } 
 }
