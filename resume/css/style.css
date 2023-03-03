@@ -191,6 +191,11 @@ dd{
 }
 /*Media Query*/
 @media screen and (max-width:510px){
+  nav{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:20px 20px 0px 20px;
+  }
   ul.related-links{
     display:grid;
     align-content:space-around;
