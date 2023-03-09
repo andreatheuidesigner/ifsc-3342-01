@@ -26,6 +26,7 @@ body{font-family: 'Open Sans', sans-serif;}
 img{max-width:100%;
   display:block;
   margin:auto;
+  border: 8px solid rgba(3, 2, 88, 0.795);
   border-radius:80%;
 }
 
@@ -187,10 +188,29 @@ dd{
   padding:20px 0;
 }
 /*Media Query Cell phone*/
-@media screen and (max-width:450px){
+@media screen and (max-width:767px){
   nav{
     display:grid;
     grid-template-columns: 1fr;
+    align-content:center;
+    padding:20px 20px 0px 20px;
+  }
+  nav a:link, nav a:visited{
+    display:flex;
+    justify-content: center;
+  }
+  .related-links li{
+    display:grid;
+    grid-template-columns: 1fr;
+    align-content:center;
+    margin:2px;
+  } 
+}
+/*Media Query Table View*/
+@media screen and (min-width:768px){
+  nav{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
     align-content:center;
     padding:20px 20px 0px 20px;
   }
