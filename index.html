@@ -5,23 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Andrea Woodberry"/> 
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <meta name="author" content="Andrea Woodberry"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/29f01eedcc.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="container">
-        <div id="header"><h1>Andrea Woodberry</h1></div><br>
-        <h2>Assignments and Projects For IFSC 3342</h2><br><br>
-        <div id="nav">
-        <ul>
-            <li><a href="pre-assessment/index.html">Pre Assessment</a></li><br>
-            <li><a href="html5-demo/static-index.html">HTML5-Demo-Static</a></li>
-            <li><a href="html5-demo/flexible-index.html">HTML5-Demo-Flexible</a></li>
-            <li><a href="resume/index.html">Andrea Woodberry Resume</a></li>
-            <li><a href="css-grid-exercise-1/flexible-index.html">CSS Grid Exercise 1</a></li>
-            <li><a href="assets/img/flexbox-defense.png">Flexbox Defense Exercise</a></li>
-        </ul>
-    </div>
-    </div>
+    <div class="container">
+        <nav>
+            <div class="logo"><img src="assets/img/logo.png" alt="My Logo Tech Like A Girl"></div>
+            <ul class="navItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/andreaewoodberry/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/itechlikeagirl"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/itechlikeagirl/"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </nav>
+        </div>
+        <!--Navigation-->
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Andrea Woodberry, MBA</span>
+                <h1>Your <span class="multitext"></span></h1>
+                <p>Andrea Woodberry, MBA is an IT professional with a skillset that is in demand for modern technology. Her skillset expertise in user-centered design helps deliver optimal experiences for a brand's audience in their industry.</p>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="/assets/img/me.png" alt="picture of Andrea" id="splash">
+                </div>
+            </div>
+        </div>
+        <h1>Projects</h1>
+        <div id="projects">
+            <ul>
+                <li><a href="pre-assessment/index.html">Pre Assessment</a></li>
+                <li><a href="html5-demo/static-index.html">HTML5-Demo-Static</a></li>
+                <li><a href="html5-demo/flexible-index.html">HTML5-Demo-Flexible</a></li>
+                <li><a href="resume/index.html">Andrea Woodberry Resume</a></li>
+                <li><a href="css-grid-exercise-1/flexible-index.html">CSS Grid Exercise 1</a></li>
+                <li><a href="assets/img/flexbox-defense.png">Flexbox Defense Exercise</a></li></ul><br><br><br><br>
+            </ul>
+        </div>
+        <footer id="colophon">
+            <h6>&copy; 2023 Andrea Woodberry | <a href="mailto:aewoodberry@ualr.edu">Email Me</a> | <a href="#top">Back to Top</a></h6>
+          </footer>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typingEffect = new Typed('.multitext',{
+            strings: ["Web Designer","UX/UI Designer","IT Analyst"],
+            loop: true,
+            typeSpeed:100,
+            backSpeed:80,
+            backDelay:1500,
+        })
+        </script>  
 </body>
 </html>
