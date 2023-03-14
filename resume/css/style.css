@@ -225,3 +225,22 @@ dd{
     margin:2px;
   } 
 }
+/*Media Query Desktop View*/
+@media screen and (min-width:992px){
+  nav{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    align-content:center;
+    padding:20px 20px 0px 20px;
+  }
+  nav a:link, nav a:visited{
+    display:flex;
+    justify-content: center;
+  }
+  .related-links li{
+    display:grid;
+    grid-template-columns: 1fr;
+    align-content:center;
+    margin:2px;
+  } 
+}
