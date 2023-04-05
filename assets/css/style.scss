@@ -1,6 +1,59 @@
-:root{
-    --bg-color:#EC7AF2;
-    --bg-image:linear-gradient(to     right top, #e7eadc, #f0d3ab, #ffb096,   #ff89b2, #ec7af2);
-    --font-family:font-family: 'Hind Vadodara', sans-serif;
+body{
+    background-color:#38b3b3;
+    box-sizing:border-box;
+}
+.nav-item{
+    display:flex;
+    font-size:20px;
 }
 
+.col-sm-7{
+    padding-top:40px;
+}
+.col-sm-7 img{
+    max-width:100%;
+    border: solid 5px black;
+    margin-left:160px;
+}
+.col-sm-7 h2{
+    padding:20px;
+    text-align:center;
+}
+.col-sm-4 h2{
+    margin:40px;
+    padding-top:40px;
+    color:rgb(248,215,218);
+}
+.col-sm-4 p{
+    margin:40px;  
+}
+#reflections .heading{
+    color:rgb(248,215,218);
+}
+#projects{
+    padding-left:50px;
+}
+#projects .heading{
+    color:rgb(248,215,218); 
+}
+.col-sm-6 h1{
+    text-align:center;
+}
+.col-sm-6{
+    padding-top:80px;
+    margin:40px;
+}
+.col-sm-7 h1{
+    text-align:center;
+}
+.multitext{
+    color:rgb(248,215,218);
+    text-transform:capitalize;
+    text-align:center;
+  }
+
+.text-center{
+    background-color:rgb(248,215,218);
+    margin:0;
+    padding:20px;
+}
