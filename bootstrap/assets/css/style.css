@@ -36,10 +36,16 @@ body {
 }
 
 .multitext {
-  color: rgb(4, 114, 114);
+  color: rgb(248, 215, 218);
   text-transform: capitalize;
 }
 
 #info .row {
   display: flex;
+}
+
+.text-center {
+  background-color: rgb(248, 215, 218);
+  margin: 0;
+  padding: 20px;
 }/*# sourceMappingURL=style.css.map */
