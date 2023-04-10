@@ -11,3 +11,23 @@ body{
     padding-bottom:200px;
     padding-top:20px;
 }
+.about-container{
+    display:flex;
+    justify-content:space-between;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-image: linear-gradient(to left, #c41717, #db3b64, #db6aa3, #ce95d0, #c5bae7, #b4bbdd, #abb9ce, #aab5be, #88959b, #697679, #4c5858, #313b3a);
+}
+.about-container img{
+    max-width:400px;
+    place-items:center;
+    margin-left:30px;
+    margin-right:30px;
+    padding-top:20px;
+}
+.card-body h5{
+    text-align:center;
+    color:#c41717;
+}
+
+
