@@ -1,5 +1,4 @@
 body {
-  background-color: grey;
   font-family: "Libre Baskerville", serif;
 }
 
@@ -7,9 +6,9 @@ body {
   display: flex;
 }
 
-.header {
+.header-container {
   background-image: url("../img/group.jpg");
   background-size: cover;
-  padding-bottom: 120px;
-  padding-top: 40px;
+  padding-bottom: 200px;
+  padding-top: 20px;
 }/*# sourceMappingURL=style.css.map */
