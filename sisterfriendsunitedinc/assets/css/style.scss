@@ -29,5 +29,39 @@ body{
     text-align:center;
     color:#c41717;
 }
+.error {
+    color: red;
+    padding-left: 5px;
+}
+.formlabel {
+    display:inline-block;
+    width: 150px;
+    text-align: left;
+    padding: 5px;
+    font-weight: bold;
+}
+.sisterfriendsform{
+    margin:40px;
+}
+.sisterfriendsform h2{
+    text-align:center;
+    padding-bottom:30px;
+}
+#contact{
+    margin:50px;
+}
+.col-md-6 .address{
+    border-left:#313b3a;
+}
+.fa{
+    padding:40px;
+    font-size:40px;
+}
+a{
+    text-decoration:none;
+}
+.fa-instagram{
+    color:rgb(243,78,64);
+}
 
 
