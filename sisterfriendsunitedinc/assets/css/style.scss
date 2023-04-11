@@ -67,6 +67,23 @@ a{
 .fa-instagram{
     color:rgb(243,78,64);
 }
+@media screen and (min-width:200px) and (max-width:499px){
+    .about-container{
+        display:flex;
+        flex-direction:column;
+    }
+    .about-container img{
+        max-width:400px;
+        place-items:center;
+        margin-left:10px;
+    }
+    #contact{
+        margin:0;
+    }
+    .icons{
+        text-align:center;
+    }
+}
 
 
 
