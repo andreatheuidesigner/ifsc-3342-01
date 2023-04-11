@@ -8,6 +8,7 @@ body {
 
 .nav-item {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .header-container {
