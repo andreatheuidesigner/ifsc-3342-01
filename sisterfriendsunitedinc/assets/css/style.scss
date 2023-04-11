@@ -31,7 +31,10 @@ body{
 }
 .card-body h5{
     text-align:center;
-    color:#c41717;
+    color:#f0e8e8;
+}
+.card-body p{
+    color:#f0e8e8;
 }
 .error {
     color: red;
@@ -69,7 +72,7 @@ a{
 }
 /*Directory Page */
 .card{
-    background-color:black;
+    background-image: linear-gradient(to left top, #050507, #343236, #665f64, #9d9094, #d8c4c4);
 }
 
 /* Media Screen */
