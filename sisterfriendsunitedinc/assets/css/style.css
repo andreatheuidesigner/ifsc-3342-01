@@ -82,6 +82,12 @@ a {
   color: rgb(243, 78, 64);
 }
 
+/*Directory Page */
+.card {
+  background-color: black;
+}
+
+/* Media Screen */
 @media screen and (min-width: 200px) and (max-width: 499px) {
   .about-container {
     display: flex;
