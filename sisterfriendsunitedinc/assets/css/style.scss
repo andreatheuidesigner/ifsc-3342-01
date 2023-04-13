@@ -10,7 +10,7 @@ body{
     justify-content:space-evenly;
 }
 .header-container{
-    background-image:url('../img/group.jpg');
+    background-image:url('../img/sfu1200.jpg');
     background-size:cover;
     padding-bottom:200px;
     padding-top:20px;
@@ -76,7 +76,10 @@ a{
 }
 
 /* Media Screen */
-@media screen and (min-width:200px) and (max-width:499px){
+@media screen and (min-width:150px) and (max-width:499px){
+    .header-container{
+        background-image:url('../img/sfu400.jpg');
+    }
     .about-container{
         display:flex;
         flex-direction:column;
@@ -93,10 +96,9 @@ a{
         text-align:center;
     }
 }
-
-@media screen and (min-width:150px) and (max-width:400px){
+@media screen and (min-width:500px) and (max-width:999px){
     .header-container{
-        background-image:url('../img/sfu400.jpg');
+        background-image:url('../img/sfu900.jpg');
     }
 }
 @media screen and (min-width:1000px){
