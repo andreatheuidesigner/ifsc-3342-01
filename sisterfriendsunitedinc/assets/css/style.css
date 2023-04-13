@@ -109,8 +109,13 @@ a {
     text-align: center;
   }
 }
+@media screen and (min-width: 150px) and (max-width: 400px) {
+  .header-container {
+    background-image: url("../img/sfu400.jpg");
+  }
+}
 @media screen and (min-width: 1000px) {
   .header-container {
-    background-image: url("../img/group-lg.jpg");
+    background-image: url("../img/sfu1200.jpg");
   }
 }/*# sourceMappingURL=style.css.map */
