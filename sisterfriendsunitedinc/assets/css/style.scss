@@ -93,3 +93,10 @@ a{
         text-align:center;
     }
 }
+
+
+@media screen and (min-width:1000px){
+    .header-container{
+        background-image:url('../img/group-lg.jpg');
+    }
+}
