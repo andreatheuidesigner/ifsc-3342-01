@@ -134,6 +134,9 @@ hr{
 
 /* Media Screen */
 @media screen and (min-width:150px) and (max-width:499px){
+    .nav-item{
+        font-size:1em;
+    }
     .about-container,
     .card{
         display:flex;
@@ -165,7 +168,12 @@ hr{
     #sisterfriendsform .mb-3 h2{
         text-align:center;
         padding-bottom:30px;
-       
+    }
+    .progress{
+        height:40px;
+        width:60%;
+        align-content:center;
+        margin:auto;
     }
 }
 .header-container{
