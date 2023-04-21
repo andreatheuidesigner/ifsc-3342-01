@@ -42,9 +42,14 @@ nav {
   padding-top: 20px;
 }
 
+.card .card-body {
+  margin: 20px;
+  padding: 20px;
+}
+
 .card-body h5 {
   text-align: center;
-  color: #f0e8e8;
+  color: #0f0f0f;
 }
 
 .card-body p {
@@ -149,7 +154,7 @@ footer h6 a {
   height: 40px;
   width: 60%;
   align-content: center;
-  margin-left: 225px;
+  margin: auto;
 }
 
 hr {
@@ -169,11 +174,13 @@ hr {
     display: grid;
     grid-template-columns: 0.5fr;
     justify-content: center;
+    margin: 10px;
   }
   .about-container img {
     max-width: 100%;
     place-items: center;
     margin-left: 10px;
+    padding: 10px;
   }
   #contact {
     margin: 0;
@@ -183,13 +190,23 @@ hr {
   }
   #sisterfriendsform {
     margin: 10px;
+    padding: 10px;
   }
   #sisterfriendsform .mb-3 h2 {
     text-align: center;
     padding-bottom: 30px;
-    margin-left: 10px;
   }
 }
 .header-container {
   padding-bottom: 10px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .card .card-img-top {
+    max-width: 100%;
+    align-self: center;
+  }
+  .community .card-title {
+    font-size: 1.5em;
+  }
 }/*# sourceMappingURL=style.css.map */
