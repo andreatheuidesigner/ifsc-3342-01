@@ -112,6 +112,11 @@ footer h6 a{
         flex-direction:column;
         margin:5px;
     }
+    .cards .container-sm{
+        display:grid;
+        grid-template-columns:.5fr;
+        justify-content:center;
+    }
     .about-container img{
         max-width:100%;
         place-items:center;
