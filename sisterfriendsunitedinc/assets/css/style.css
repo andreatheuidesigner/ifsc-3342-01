@@ -2,6 +2,10 @@ body {
   font-family: "Libre Baskerville", serif;
 }
 
+nav {
+  height: 10rem;
+}
+
 .navbar img {
   max-width: 50%;
 }
