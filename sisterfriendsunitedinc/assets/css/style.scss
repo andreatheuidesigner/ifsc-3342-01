@@ -1,6 +1,12 @@
-
+:root{
+    --heading-font:'Paytone One', sans-serif;
+    --para-font:'Cabin', sans-serif;
+}
 body{
-    font-family: 'Libre Baskerville', serif;
+    font-family: var(--para-font);
+}
+h1, h2{
+    font-family: var(--heading-font);
 }
 nav{
     height:10rem;
@@ -11,6 +17,8 @@ nav{
 .nav-item{
     display:flex;
     justify-content:space-evenly;
+    font-family: var(--heading-font);
+    font-size:1.5em;
 }
 
 .about-container{
@@ -103,9 +111,22 @@ footer h6 a{
     flex-direction:row;
     justify-content:space-between;
 }
+.community .card-title{
+    color:black;
+}
+.community h5{
+    font-size:2.5em;
+}
 .progress{
     height:40px;
+    width:60%;
+    align-content:center;
+    margin-left:225px;
 }
+hr{
+    background-color: rgb(31, 39, 39);
+    height: 5px;
+    }
 
 /* Media Screen */
 @media screen and (min-width:150px) and (max-width:499px){
