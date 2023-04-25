@@ -26,6 +26,10 @@ nav {
   font-size: 1.5em;
 }
 
+.header {
+  padding-bottom: 15px;
+}
+
 .about-container {
   display: flex;
   justify-content: space-between;
@@ -217,5 +221,8 @@ hr {
   }
   .community .card-title {
     font-size: 1.5em;
+  }
+  .community .card-body .card-title {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=style.css.map */

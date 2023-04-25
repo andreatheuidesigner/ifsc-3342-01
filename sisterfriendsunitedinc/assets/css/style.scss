@@ -20,6 +20,9 @@ nav{
     font-family: var(--heading-font);
     font-size:1.5em;
 }
+.header{
+    padding-bottom:15px;
+}
 
 .about-container{
     display:flex;
@@ -187,5 +190,7 @@ hr{
     .community .card-title{
         font-size:1.5em;
     }
-    
+    .community .card-body .card-title{
+        font-size:18px;
+    }
 }
