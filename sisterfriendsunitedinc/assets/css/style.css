@@ -3,6 +3,16 @@
   --para-font:"Cabin", sans-serif;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   font-family: var(--para-font);
 }
@@ -214,7 +224,7 @@ hr {
   padding-bottom: 10px;
 }
 
-@media screen and (min-width: 500px) and (max-width: 767px) {
+@media screen and (min-width: 554px) and (max-width: 767px) {
   .card .card-img-top {
     max-width: 100%;
     align-self: center;
@@ -224,5 +234,17 @@ hr {
   }
   .community .card-body .card-title {
     font-size: 18px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 553px) {
+  .card .card-img-top {
+    max-width: 100%;
+    align-self: center;
+  }
+  .about-container .card-title {
+    font-size: 1em;
+  }
+  .community .card-body .card-title {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
