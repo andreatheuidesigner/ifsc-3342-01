@@ -5,6 +5,8 @@
 
 html {
   box-sizing: border-box;
+  position: relative;
+  min-height: 100%;
 }
 
 *,
@@ -119,8 +121,11 @@ nav {
 }
 
 footer {
-  margin: 0;
-  padding: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px; /* Set the fixed height of the footer here */
+  line-height: 70px;
 }
 
 footer h6 a {
